@@ -1,5 +1,5 @@
 # Tiny Logger
-A small logging library I use in a few other projects
+A tiny logging library I use in a few other projects
 
 This crate offers different logging macros,
 that print out the messages in different colors depending on how important they are
@@ -25,7 +25,7 @@ tiny_logger::warn!("Warn with data: {:?}", data);
 tiny_logger::error!("Error message");
 tiny_logger::error!("Error with data: {:?}", data);
 
-
+// Removed in release mode
 tiny_logger::assert!(true, "Assert message");
 
 tiny_logger::die!("Die message");
